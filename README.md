@@ -8,7 +8,9 @@ This is a brick breaker game implemented in Python, where the player controls th
 
 - **Hand Recognition Control:** The bat's movement is controlled by recognizing hand gestures captured through the webcam using `cvzone`.
 - **Classic Brick Breaker Gameplay:** Break the bricks using the ball without letting it fall off the screen.
-- **Scoring System:** Keep track of your score as you break more bricks.
+- **Lifelines:** You get 2 chances to finish the game.
+- **Special Feature 1**:The game stops when no hand is detected.
+- **Special Feature 2**: Only one person can play at a time(only one hand is detected). 
 
 ## Dependencies
 
@@ -33,7 +35,7 @@ This is a brick breaker game implemented in Python, where the player controls th
 
 
    ```bash
-   python main.py
+   python brick_breaker_cam.py
 
 4. Have fun playing the game!
 
