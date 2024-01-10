@@ -115,7 +115,7 @@ while True:
         start = False  # game stops when hand is removed
 
     # background for the game
-    back = cv2.imread("C:/Users/Nik/Desktop/CODES/PYTHON/background.png")
+    back = cv2.imread("./background.png")
     back = cv2.resize(back, (screen_width, screen_height))
     plot(back)
     cv2.imshow('parameters', back)
