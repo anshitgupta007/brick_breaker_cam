@@ -22,8 +22,7 @@ This is a brick breaker game implemented in Python, where the player controls th
 1. Clone the repository:
 
    ```bash
-   git clone https://github.com/anshitgupta007/brick-breaker-hand-control.git
-
+   git clone https://github.com/anshitgupta007/brick_breaker_cam.git
 
 2. Install dependencies:
 
